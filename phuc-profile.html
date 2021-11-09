@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(115deg,rgb(128, 166, 238), aquamarine );
+}
+.header{
+    height: 80px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.header__profile{
+    height: 80px;
+    /* width: 150px; */
+    /* background-color: cadetblue; */
+    text-align: center;
+    line-height: 80px;
+    margin: auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+.header__item{
+    /* height: 80px; */
+    display: flex;
+    margin:auto;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header__item-item{
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.header__item-item a{
+    transition: 0.2s;
+}
+.header__item-item a:hover{
+    color: #fff;
+}
+
+.container{
+    height: 430px;
+    width: 100%;
+    border-bottom: 185px solid #fff;
+}
+.container__table{
+    height: 500px;
+    width: 850px;
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+    top:20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #555;
+    display: flex;
+}
+.container__table-img{
+    height: 440px;
+    width:395px;
+    background:url(https://scontent.fsgn8-2.fna.fbcdn.net/v/t1.6435-9/131440613_1295911730784832_5362675554859550369_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_ohc=Oy5LeKMbpdoAX9uXeTA&_nc_ht=scontent.fsgn8-2.fna&oh=ac0883cf68b55a67e5b1596676548d35&oe=61B15404);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container__table-table{
+    display: flex;
+    margin: auto;
+}
+.container__table-text{
+    height:440px;
+    width: 395px;
+    /* background-color: violet; */
+    display: flex;
+}
+.container__table-text-text{
+    height: 370px;
+    width: 300px;
+    /* background:oldlace; */
+    margin: auto;
+    margin-left: 80px;
+}
+.container__table-text-text h4{
+    text-align:left;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.container__table-text-text h1{
+    text-align: left;
+    font-size:33px;
+    line-height: 50px;
+}
+.container__table-text-text h5{
+    text-align: left;
+    line-height: 30px;
+    font-size: 14.5px;
+}
+.container__table-text-text p{
+    text-align: left;
+    font-size: 16.5px;
+    
+}
+.container__table-text-text-icon-group{
+    display: flex;
+    margin-top: 10px;
+
+
+}
+.container__table-text-text-icon{
+    margin-top: 15px;
+ }
+.container__table-text-text-icon-group p{
+     margin-left: 7.5px;
+ }
+.container__table-text-text-hotline{
+     display: flex;
+     margin-top: 10px;
+}
+.container__table-text-text-hotline a{ 
+    color: #333;
+    text-decoration: none;
+}
+.container__table-text-text-hotline i{
+    font-size: 22px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header__profile">Thông tin cá nhân</div>
+        <div class="header__item">
+            <div class="header__item-item"><a href="">Trang chủ</a></div>
+            <div class="header__item-item"><a href="">giới thiệu</a></div>
+            <div class="header__item-item"><a href="">đăng nhập</a></div>
+            <div class="header__item-item"><a href=""></a></div>
+            
+        
+           
+           
+        </div>
+    </div>
+    <div class="container">
+        <div class="container__table">
+            <div class="container__table-table">
+                <div class="container__table-img"></div>
+            <div class="container__table-text">
+                <div class="container__table-text-text">
+                    <h4>Hello everybody, i am</h4>
+                    <h1>Lê Ngọc Phúc</h1>
+                    <h5>Nghề nghiệp tương lai: Suport technician </h5>
+                    <p>Tôi là người thích nghe nhạc và đọc những cuốn sách hay. </p>
+                    <div class="container__table-text-text-icon">
+                        <div class="container__table-text-text-icon-group">
+                            <i class="far fa-calendar-alt"></i>
+                            <p>30-05-2002</p>
+                        </div>
+                        <div class="container__table-text-text-icon-group">
+                            <i class="fas fa-phone-volume"></i>
+                           <p>0703495304</p>
+                        </div>
+                        <div class="container__table-text-text-icon-group">
+                            <i class="far fa-envelope"></i>
+                            <p> 20661031@kthcm.edu.vn</p>
+                        </div>
+                        <div class="container__table-text-text-icon-group">
+                            <i class="fas fa-home"></i>
+                            <p>TP. Hồ Chí Minh</p>
+                        </div>
+                    </div>
+                    <div class="container__table-text-text-hotline">
+                        <a href="">
+                            <i style="margin-left: 0px;" class="fab fa-facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
